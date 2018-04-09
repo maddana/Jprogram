@@ -5,18 +5,19 @@ public class dem {
 	{
 		System.out.println("i am in f1");
 	}
-	dem(int e){
-		System.out.println(e);
+	dem(){
+		this(2,3);
+		System.out.println("i am in 0 arg constructor");
 	}
 	/*A constructor can't be a
 	 * static but it can be private
 	 */
-	dem(){
+	dem(int x,int y){
 		this(2);
-		System.out.println("i am in 0 arg constructor");
+		System.out.println("i am in 2 arg constructor");
 	}
 	{
-		System.out.println("i am in 1 annonymous block");
+		System.out.println("i am in static annonymous block");
 		f1();
 	}
 	static
