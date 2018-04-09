@@ -1,1 +1,4 @@
 /bin/
+.classpat
+/target/
+.project
