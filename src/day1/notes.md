@@ -2,7 +2,7 @@
 ### Types of array
 * 1 dimensional array
 * 2 dimensional array -fixed column in all rows
-jagged array variable column in all rows
+* ##  jagged array variable column in all rows
 
 ```java
 
@@ -32,7 +32,7 @@ int b[][]=new int [3][3];
 
 int []b[]=new int[][3];//error
 
-int [][]b=new int [3][];//valid in java row are manditory but it is incomplete to make it complete
+int [][]b=new int [3][];//valid in java row are mandatory but it is incomplete to make it complete
 
 b[0]=new int[3];
 b[1]=new int[5];
