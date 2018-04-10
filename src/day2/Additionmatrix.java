@@ -12,8 +12,6 @@ public class Additionmatrix {
 		Matrix ob3=new Matrix();
 		ob3.add(ob, ob2);
 		ob3.display();
-		
-
+		ob3.scalar();
 	}
-
 }

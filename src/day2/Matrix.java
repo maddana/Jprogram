@@ -58,4 +58,31 @@ public class Matrix {
 		else
 			System.out.println("Enter valid matrix");
 	}
+	void scalar()
+	{
+		int count=0,count1=0,k=arr[0][0];
+		for(int i=0;i<arr.length;i++)
+		{
+			for(int j=0;j<arr.length;j++)
+			{
+				if(i==j && (arr[i][j]!=k || arr[i][j]==0  ) ){
+					count=1;
+					break;
+				}
+				if(i!=j && arr[i][j]!=0){
+						count1=1;
+						break;
+				}
+				
+			}
+			
+		}
+		if(count==0 && count1==0){
+			System.out.println("Scalar");
+		}
+		else
+		{
+			System.out.println("Not Scalar");
+		}
+	}
 }
