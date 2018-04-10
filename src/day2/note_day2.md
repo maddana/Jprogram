@@ -8,7 +8,8 @@ this will create enum class
 we should not give ; after enum constants
 
 In no need to give new when creating object
-`````java
+
+`````
 Q.Accept the name of the planet and display
 
 - volume of the planet
