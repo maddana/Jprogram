@@ -2,3 +2,5 @@
 .classpat
 /target/
 .project
+/.setting/
+
