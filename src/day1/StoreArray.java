@@ -22,12 +22,12 @@ public class StoreArray
 	{
 		this.a=x.a;
 	}
-	void read() throws NumberFormatException,IOException
+	void Read() throws NumberFormatException,IOException
 	{
 		System.out.println("enter"+a.length+"elements");
 		for(int i=0;i<a.length;i++)
 		{
-			a[i]=Integer.parseInt(read.input.readLine());
+			a[i]=Integer.parseInt(Read.input.readLine());
 		}
 	}
 	void display()
@@ -55,7 +55,10 @@ public class StoreArray
 	}
 	public static void main(String []args)throws IOException
 	{
-		
+		StoreArray ob=new StoreArray(new int[]{5,6,7});
+		ob.display();
+		StoreArray ob1=new StoreArray(ob);
+		ob1.display();
 	}
 	
 	
