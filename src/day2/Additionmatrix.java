@@ -1,3 +1,9 @@
+/*Write a program to add and check
+ * whether the matrix is scalar or not
+ */
+
+
+
 package day2;
 
 public class Additionmatrix {
