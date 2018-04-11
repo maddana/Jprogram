@@ -47,12 +47,18 @@ There is no default destructor.
 | Constructor		|	yes			|					|	yes			|	yes		|
 | Destructor		|		yes		|		no			|		no		|		no	|
  
- 										public			protected			default			private
- * Within class								yes				yes					yes				yes
- * Outside class within package				yes				yes					yes				no
- * Outside the package						yes				no					no				no
- * Outside the package after inheritance		yes				yes					no				no
+ 
+ |											|public		|	protected		|	default		|	private|
+ |`````										|`````		|```````			|`````			|`````		|
+ | Within class								|	yes		|		yes			|		yes		|		yes|
+ | Outside class within package				|	yes		|		yes			|		yes		|		no|
+ | Outside the package						|	yes		|		no			|		no		|		no|
+ | Outside the package after inheritance	|	yes		|		yes			|		no		|		no|
+ 
  * What is the Access Specifier for default constructor?
+ 
+ * what is pojo,java bean,transfer object,value object,entity?
+ 
  ````````
  
  		
