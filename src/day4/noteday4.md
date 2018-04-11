@@ -49,7 +49,7 @@ There is no default destructor.
  
  
  |											|public		|	protected		|	default		|	private|
- |`````										|`````		|```````			|`````			|`````		|
+ |---										|---		|---				|---			|---		|
  | Within class								|	yes		|		yes			|		yes		|		yes|
  | Outside class within package				|	yes		|		yes			|		yes		|		no|
  | Outside the package						|	yes		|		no			|		no		|		no|
