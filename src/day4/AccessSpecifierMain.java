@@ -1,4 +1,4 @@
-package day4;
+package day4;//same package
 
 public class AccessSpecifierMain {
 
