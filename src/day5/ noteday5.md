@@ -1,6 +1,9 @@
 
 ### Non Access Specifiers
-````````````
+
+
+
+
 |						|	Static	|	final	|	Abstract	|	Volatile	|	Synchronize	|	Transient	|	Native	|	Strictfp| 
 |---					|---		|---		|---			|---			|---			|---			|---		|---		|
 |Class 					|	NO		|	YES		|		YES		|		NO		|		NO		|		NO		|		NO	|		NO	|									
@@ -13,9 +16,9 @@
 |ABSTRACT CLASS			|		NO	|	NO		|		YES		|		NO		|		NO		|		NO		|		NO	|		NO	|		
 |CONSTRUCTOR			|		NO	|	NO		|		NO		|		NO		|		NO		|		NO		|		NO	|		NO	|		
 |DESTRUCTOR				|		NO	|	NO		|		NO		|		NO		|		NO		|		NO		|		NO	|		NO	|
-<br>
+
 * IF VARIABLE IS FINAL THEN IT WILL BE CONSTANT
-<br>
+
 
 ## ABSTRACT
 
@@ -42,4 +45,3 @@ Q Accept two number perform add,sub,mult and division without control Structure.
 
 Q. To accept student id and name if student id is created allow him to enter the marks detail.
 
-````
