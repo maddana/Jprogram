@@ -41,6 +41,16 @@
 * If inner class is defined static then it is nested class.
 <br>
 <p> </p>
+## POJO
+* A class that allows to access the data is called pojo or java bean.
+* 
+## ENTERPRISE JAVA OR BUSINESS JAVA
+
+The class which have only logic part.
+
+## Encapsulation
+
+* The data is hidden to the users
 Q Accept two number perform add,sub,mult and division without control Structure.
 
 Q. To accept student id and name if student id is created allow him to enter the marks detail.
