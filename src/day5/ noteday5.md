@@ -51,7 +51,10 @@ The class which have only logic part.
 ## Encapsulation
 
 * The data is hidden to the users
-Q Accept two number perform add,sub,mult and division without control Structure.
 
-Q. To accept student id and name if student id is created allow him to enter the marks detail.
+## Questions
 
+* Q.1 Accept two number perform add,sub,mult and division without control Structure.
+
+* # Q.2 To accept student id and name if student id is created allow him to enter the marks detail.
+*  Ans.2 StudentDetails.java and StudentDetailsMain.java 
